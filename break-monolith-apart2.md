@@ -351,7 +351,7 @@ The _ProductRepositoryTest_ also used another method called _findById(String id)
 
 The _ProductRepository_ should now have all the components, but we still need to tell spring how to connect to the database. For local development we will use the H2 in-memory database. When deploying this to OpenShift we are instead going to use the PostgreSQL database, which matches what we are using in production.
 
-The Spring Framework has a lot of sane defaults that can always seem magical sometimes, but basically all we have to do to setup the database driver is to provide some configuration values. Open _src/main/resources/application-default.properties_ and add the following properties where the comment says `#TODO: Add database properties`.
+The Spring Framework has a lot of sane defaults that can seem magical at times, but basically all we have to do to setup the database driver is to provide some configuration values. Open _src/main/resources/application-default.properties_ and add the following properties where the comment says `#TODO: Add database properties`.
 
 ~~~java
 spring.datasource.url=jdbc:h2:mem:catalog;DB_CLOSE_ON_EXIT=FALSE
