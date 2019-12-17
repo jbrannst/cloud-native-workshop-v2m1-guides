@@ -264,8 +264,8 @@ Add these at the `<!-- TODO: Insert test_readOne here -->` marker:
     }
 ~~~
 
-The _ProductRepository_ should also provide a methods called _readAll()_ that returns a list of all products in the catalog. We test this by making sure that the list contains a "Red Fedora", "Forge Laptop Sticker" and "Oculus Rift".
-Again, add these at the `<!-- TODO: Insert test_readAll here -->` marker:
+The _ProductRepository_ should also provide a method called _readAll()_ that returns a list of all products in the catalog. We test this by making sure that the list contains a "Red Fedora", "Forge Laptop Sticker" and "Oculus Rift".
+Add these at the `<!-- TODO: Insert test_readAll here -->` marker:
 
 ~~~java
     @Test
