@@ -198,7 +198,7 @@ If it builds successfully (you will see **BUILD SUCCESS**), you have now success
 
 Now you've seen how to get started with Spring Boot development on Red Hat Runtimes.
 
-In next step of this lab, we will add the logic to be able to read a data from the database.
+In next step of this lab, we will add the logic to be able to read data from the database.
 
 ####4. Create Domain Objects
 
